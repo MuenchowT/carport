@@ -1,0 +1,28 @@
+{
+  "name": "CarportEdel42",
+  "device_id": "CarportEdel42",
+  "device_stats_interval": 60,
+  "wifi": {
+    "ssid": "xyz",
+    "password": "abcde",
+    "ip": "123.123.0.123",
+    "mask": "255.255.255.0",
+    "gw": "123.123.0.1",
+    "dns1": "123.123.0.1"
+  },
+  "mqtt": {
+    "host": "hostname",
+    "port": 1883,
+    "base_topic": "homie/",
+    "auth": true,
+    "username": "username",
+    "password": "123456",
+    "ssl": false
+  },
+  "ota": {
+    "enabled": true
+  },
+  "settings": {
+    "percentage": 55
+  }
+}
